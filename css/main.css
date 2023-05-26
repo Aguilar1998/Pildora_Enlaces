@@ -40,7 +40,7 @@ h1 {
     align-items: center;
 }
 
-.header nav div a {
+.header nav div .correcto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,6 +48,20 @@ h1 {
     padding: 1rem;
 }
 
-.header nav div a:hover {
+.header nav div .incorrecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+    padding: 1rem;
+}
+
+.header nav div .correcto:hover {
     padding: 1.5rem 1rem;
+    color: green;
+}
+
+.header nav div .incorrecto:hover {
+    padding: 1.5rem 1rem;
+    color: red;
 }
